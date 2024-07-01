@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.Du4yMC9e.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modpacks/rotn.md","filePath":"modpacks/rotn.md","lastUpdated":1719832393000}'),o={name:"modpacks/rotn.md"};function r(s,n,c,d,p,m){return a(),e("div")}const f=t(o,[["render",r]]);export{i as __pageData,f as default};

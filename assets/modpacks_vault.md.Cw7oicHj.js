@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./chunks/framework.Du4yMC9e.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modpacks/vault.md","filePath":"modpacks/vault.md","lastUpdated":1719832393000}'),o={name:"modpacks/vault.md"};function s(c,r,d,n,p,l){return e(),a("div")}const i=t(o,[["render",s]]);export{_ as __pageData,i as default};

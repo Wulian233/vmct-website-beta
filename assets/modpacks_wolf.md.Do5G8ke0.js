@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Du4yMC9e.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modpacks/wolf.md","filePath":"modpacks/wolf.md","lastUpdated":1719832393000}'),o={name:"modpacks/wolf.md"};function s(c,r,d,n,p,f){return a(),t("div")}const _=e(o,[["render",s]]);export{m as __pageData,_ as default};

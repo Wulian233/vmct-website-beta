@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.Du4yMC9e.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modpacks/cave.md","filePath":"modpacks/cave.md","lastUpdated":1719832393000}'),c={name:"modpacks/cave.md"};function o(s,r,d,n,p,m){return t(),a("div")}const f=e(c,[["render",o]]);export{i as __pageData,f as default};
