@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.BazbjRrv.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modpacks/create.md","filePath":"modpacks/create.md","lastUpdated":1722670270000}'),c={name:"modpacks/create.md"};function r(o,s,d,n,p,m){return a(),t("div")}const f=e(c,[["render",r]]);export{i as __pageData,f as default};
