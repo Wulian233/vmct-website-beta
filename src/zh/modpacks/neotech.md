@@ -3,26 +3,27 @@ layout: doc
 title: FTB Neotech汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://feed-the-beast.com/_next/image?url=https%3A%2F%2Fapps.modpacks.ch%2Fmodpacks%2Fart%2F112%2Fneotechx512.png&w=640&q=75" style="width:30%" alt="图片1">
-</div>
+![](https://feed-the-beast.com/_next/image?url=https%3A%2F%2Fcdn.feed-the-beast.com%2Fblob%2Fc8%2Fc853e9a0534b3e83a2b2dc90fd439db77b8094c5f6b06e92d8e0072212d89bb6.png&w=256&q=75)
 
 进入一个以科技为主宰的世界，体验精心设计的FTB Neotech整合包。无论你是经验丰富的工程师、足智多谋的冒险者，还是富有创意的建筑师，FTB Neotech都能为你带来数小时的模组娱乐时光。
 
 >  [!IMPORTANT] 重要提醒
 >  如果你使用PCL2启动器，请更新到最新版本。旧版本不支持启动Neoforge整合包，无法安装游戏！
+>  完整汉化体验请下载下方的下载VP模组，并放在`mods`文件夹！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://github.moeyy.xyz/https://github.com/VM-Chinese-translate-group/FTB-Neotech/releases/download/b1.0/Neotech.zip' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: '/doing' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Neotech/' }
 ]" />
 
 ## 更多信息
 
 FTB官网|加载器|整合包版本|状态
 :-|:-|:-|:-
-[链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.7.0|*审核中*|
+[链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.7.0|*维护中*|
 
 项目主管 @[Cactusstudent](https://github.com/Cactusstudent) @[Wulian233](https://github.com/Wulian233)
 
