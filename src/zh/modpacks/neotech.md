@@ -9,12 +9,14 @@ title: FTB Neotech汉化下载
 
 >  [!IMPORTANT] 重要提醒
 >  如果你使用PCL2启动器，请更新到最新版本。旧版本不支持启动Neoforge整合包，无法安装游戏！
->  完整汉化体验请下载下方的下载VP模组，并放在`mods`文件夹！
+>  完整汉化体验请下载下方的下载i18n和VP模组，并放在`mods`文件夹！推荐加入拼音搜索模组。
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://github.moeyy.xyz/https://github.com/VM-Chinese-translate-group/FTB-Neotech/releases/download/b1.0/Neotech.zip' },
-  { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: '/doing' },
+  { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1xgsuesEEi/' },
   { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
+  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196' },
+  { id: 'modrinth', text: '下载拼音搜索模组', icon: '/imgs/svg/modrinth.svg', link: 'https://cdn.modrinth.com/data/cK9Ygs2O/versions/IeLfMnQs/JEChUnofficial-NeoForge-1.20.4-0.1.1.jar' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Neotech/' }
 ]" />
