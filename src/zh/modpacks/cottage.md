@@ -20,7 +20,7 @@ title: 春晓之巫汉化下载
 
 整合包下载地址|加载器|汉化支持整合包版本|MC版本|状态
 :-|:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/blackstone-block)|Forge|1.16.10 **不支持最新版**|1.19.2|**停止维护**|
+[下载链接](https://www.curseforge.com/minecraft/modpacks/cottage-witch)|Forge|1.16.10 **不支持最新版**|1.19.2|**翻译新版（维护）中**|
 
 ## 关于汉化
 
@@ -40,7 +40,7 @@ title: 春晓之巫汉化下载
 
 ## 支持版本
 
-支持最新版本1.16.10。
+支持版本1.16.10，不支持最新版！。
 
 ## 支持我们
 
