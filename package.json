@@ -36,7 +36,7 @@
     "markdown-it": "^14.1.0",
     "markdown-it-container": "^4.0.0",
     "pnpm": "^9.9.0",
-    "taze": "^0.16.6",
+    "taze": "^0.16.7",
     "tsconfig-vuepress": "^5.0.0"
   },
   "packageManager": "pnpm@9.9.0"
