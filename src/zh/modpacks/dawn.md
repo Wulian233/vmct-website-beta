@@ -8,7 +8,13 @@ title: 破晓之界汉化下载
   <img src="https://s1.ax1x.com/2023/07/22/pCqigqU.jpg" style="width:50%" alt="图片2">
 </div>
 
-## 必须下载Vault Patcher（VP）模组才能完整汉化！
+> [!TIP] 提示
+> 必须下载Vault Patcher（VP）模组才能完整汉化！
+> **汉化支持整合包版本2.0.9f3，不支持最新版！**
+
+整合包下载地址|加载器|支持整合包版本|状态
+:-|:-|:-|:-
+https://www.curseforge.com/minecraft/modpacks/dawn-craft)|Forge|1.18.2 2.0.9f3|**停止维护**|
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/DawnCraft-VMct' },
@@ -31,8 +37,6 @@ title: 破晓之界汉化下载
 ⚔️独特的成就系统
 
 ⚔️魂类战斗系统
-
-你可以在这里下载[原版整合包](https://www.curseforge.com/minecraft/modpacks/dawn-craft)。
 
 如果你是MacOS用户，请[查看此文档](https://vmhanhuazu.lanzouo.com/Dawncraft-mac)
 
