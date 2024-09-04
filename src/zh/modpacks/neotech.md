@@ -12,7 +12,7 @@ title: FTB Neotech汉化下载
 >  完整汉化体验请下载下方的下载i18n和VP模组，并放在`mods`文件夹！推荐加入拼音搜索模组。
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/github.svg', link: 'https://gh.llkk.cc/https://github.com/VM-Chinese-translate-group/FTB-Neotech/releases/download/b1.0/Neotech.zip' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/github.svg', link: 'https://vmhanhuazu.lanzoui.com/s/neotech' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1xgsuesEEi/' },
   { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196' },
