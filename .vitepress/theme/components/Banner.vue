@@ -1,11 +1,11 @@
-<script setup lang="ts">
+<script setup>
 import { useElementSize } from '@vueuse/core'
 import { ref, computed, onMounted, watchEffect } from 'vue'
 import { useData } from 'vitepress'
 import { hash } from '../utils'
 import dayjs from 'dayjs'
 
-const banner = ref<HTMLElement>()
+const banner = ref(null)
 const { height } = useElementSize(banner)
 const { frontmatter, page, theme } = useData()
 const storeKey = `banner-${page.value.relativePath}`
@@ -39,9 +39,9 @@ watchEffect(() => {
   }
 })
 
-const restore = (key: string, def = false) => {
+const restore = (key, def = false) => {
   const saved = localStorage.getItem(key)
-  const bannerData = JSON.parse(saved!)
+  const bannerData = JSON.parse(saved)
   if (!canBannerVisible.value) return hideBanner()
   if (
     saved

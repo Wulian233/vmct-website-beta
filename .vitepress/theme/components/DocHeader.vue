@@ -31,13 +31,13 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { useData } from 'vitepress'
 import { ref, watchEffect, computed } from 'vue'
 
 const { frontmatter, page } = useData()
 
-const match = ref<string | boolean>(false)
+const match = ref(false)
 const title = computed(
   () =>
     frontmatter.value.title ||

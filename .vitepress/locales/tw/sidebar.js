@@ -24,6 +24,7 @@ const sidebar = {
         { text: '幻想領域', link: '/modpacks/fantasy' },
         { text: '飼養奇異點生存', link: '/modpacks/feed' },
         { text: '冰雪之域', link: '/modpacks/frozenopolis' },
+        { text: '渴望科技2', link: '/modpacks/hungry' },
         { text: '無限協會', link: '/modpacks/if' },
         { text: '地狱起源', link: '/modpacks/infernal' },
         { text: '噴氣背包貓', link: '/modpacks/jetpack' },

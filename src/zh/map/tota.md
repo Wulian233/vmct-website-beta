@@ -13,7 +13,7 @@ layout: doc
 
 原帖：https://www.minecraftmaps.com/49520-temple-of-the-art
 
-游戏版本：MC Optifine：1.19.2
+游戏版本：MC+Optifin 1.19.2
 
 玩家数量：1名
 

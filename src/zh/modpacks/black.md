@@ -32,7 +32,9 @@ title: 黑石世界汉化下载
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/blackstone-block)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。感谢自尊寺和cat酱汉化该整合包！❤️
+本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+特别感谢自尊寺和cat酱汉化该整合包！
 
 ## 支持我们
 

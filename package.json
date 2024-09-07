@@ -3,9 +3,15 @@
   "private": "true",
   "license": "MIT",
   "type": "module",
+  "author": "Wulian233 <admin@vmct-cn.top>",
+  "homepage": "https://github.com/Wulian233/vmct-cn.top",
   "repository": {
     "type": "git",
     "url": "https://github.com/Wulian233/vmct-cn.top"
+  },
+  "bugs": {
+    "url": "https://github.com/Wulian233/vmct-cn.top/issues",
+    "email": "admin@vmct-cn.top"
   },
   "scripts": {
     "build": "vitepress build --minify --base /",
