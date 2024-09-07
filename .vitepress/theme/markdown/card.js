@@ -1,6 +1,6 @@
 import { container } from '@mdit/plugin-container'
 import { load } from 'js-yaml'
-import { stringifyProp, entries, fromEntries, isPlainObject, isString } from '../utils.js'
+import { stringifyProp, entries, fromEntries, isPlainObject, isString } from '../utils'
 
 const CARD_PROPS = [
   'title',
