@@ -29,7 +29,7 @@ Would You Rather……？ （你喜歡……？）
 祝你在《Would You Rather》中取勝！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
+  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 

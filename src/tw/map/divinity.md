@@ -30,7 +30,7 @@ layout: doc
 你準備好面對神界隕落了嗎？
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
+  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
@@ -45,7 +45,7 @@ layout: doc
 
 ## 翻譯者（排名不分先後）
 
-cat醬，X209，linyeyuyue，咕咕魚，RCqaq_，Feathamity，DC10-10，醉冰茶，望，阿鵡，荔枝，茫氪，NLG永不言弃，netizenxing，青嵐，Lims，Sy_Cr，Reset255，捂臉，逸晨
+cat醬，X209，凛夜雨月，咕咕魚，RCqaq_，Feathamity，DC10-10，醉冰茶，望，阿鵡，荔枝，茫氪，NLG永不言弃，netizenxing，青嵐，Lims，Sy_Cr，Reset255，捂臉，逸晨
 
 ## 一些需知
 

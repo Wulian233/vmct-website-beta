@@ -44,4 +44,9 @@ features:
     details: 在類銀河惡魔城風格的冒險CTM地圖中，探索二十世紀初的蒸汽朋克設施，揭秘流明綜合體沒落的原因。
     link: ./lumina
     linkText: 前往下載
+  - icon: 🔮
+    title: Temple of the Art
+    details: Temple of the Art是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
+    link: ./tota
+    linkText: 前往下載
 ---
