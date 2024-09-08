@@ -49,14 +49,80 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { withBase } from 'vitepress'
 import { isLinkExternal, isRelativeLink } from '../utils'
 import { computed } from 'vue'
 
 import '../styles/card.css'
 
-const props = withDefaults(defineProps(), {
+interface CardProps {
+  /**
+   * Card title
+   *
+   * 卡片标题，必填项
+   *
+   */
+  title: string
+
+  /**
+   * Card description
+   *
+   * 卡片描述，为空时默认显示为 link
+   */
+  desc?: string
+
+  /**
+   * Card icon
+   *
+   * 卡片图标，默认为项目 Logo
+   */
+  logo?: string
+
+  /**
+   * Card link
+   *
+   * 卡片链接
+   */
+  link?: string
+
+  /**
+   * Card color
+   *
+   * 卡片链颜色
+   */
+  color?: string
+
+  /**
+   * Card cover
+   *
+   * 卡片封面，Only NormalTheme
+   */
+  cover?: string
+
+  /**
+   * Card hover shadow
+   *
+   * 是否启用卡片 hover 时阴影效果，默认启用
+   */
+  hoverShadow?: boolean
+
+  /**
+   * Card shadow
+   *
+   * 是否启用卡片阴影效果，默认启用
+   */
+  shadow?: boolean
+
+  /**
+   * Card theme
+   *
+   * 卡片主题，默认 normal
+   */
+  theme?: 'normal' | 'medium'
+}
+
+const props = withDefaults(defineProps<CardProps>(), {
   desc: '',
   logo: '',
   color: '',
@@ -73,13 +139,13 @@ const iconMap = {
   'qq.com': 'i-custom-qq',
 }
 
-const imgLoadHandler = (e) => {
-  e.target.classList.remove('skeleton-animation')
+const imgLoadHandler = (e: { target: any; }) => {
+  e.target!['classList'].remove('skeleton-animation')
 }
 
-const imgErrorHandler = (e) => {
-  e.target.classList.add('load-error')
-  e.target.src = '/imgs/missing.png'
+const imgErrorHandler = (e: { target: any; }) => {
+  e.target!['classList'].add('load-error')
+  e.target!['src'] = '/imgs/missing.png'
 }
 
 const iconLink = computed(() => {
@@ -124,8 +190,8 @@ const descText = computed(() => {
   if (props.desc) {
     return props.desc
   } else if (isRelativeLink(props.link)) {
-    const prefix = props.link.substring(0, 3).replace(/(\.\/|\/)/g, '')
-    const suffix = props.link.substring(3)
+    const prefix: string = props.link.substring(0, 3).replace(/(\.\/|\/)/g, '')
+    const suffix: string = props.link.substring(3)
     console.log(location.href)
     return location.origin + withBase(`/${prefix}${suffix}`)
   } else {
