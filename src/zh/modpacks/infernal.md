@@ -11,6 +11,8 @@ title: 地狱起源汉化下载
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/infernalorigin'},
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tx4y1s7E8/' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1nH4y1w7CQ' },
+  { id: 'curseforge', text: 'i18n自动汉化更新', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196' },
+  { id: 'curseforge', text: '硬编码汉化VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
@@ -118,11 +120,7 @@ title: 地狱起源汉化下载
 
 若未出现请认真按上述操作执行直至出现替换选项框
 
-注：若需完全汉化请下载i18n自动汉化更新模组、硬编码汉化VP模组(请下载最新版)补全汉化
-
-点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)
-
-点击下载[硬编码汉化VP模组](https://cdn.modrinth.com/data/NLV0Mnpu/versions/AfxwGce6/vaultpatcher-all-1.4.2%2B2.jar)
+注：若需完全汉化请下载i18n自动汉化更新模组、硬编码汉化VP模组补全汉化
 
 ## 译者名单
 

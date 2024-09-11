@@ -12,6 +12,8 @@ title: 天空奥德赛汉化下载
 
 <DownloadLinks :methods="[
   { id: 'github', text: '下载汉化', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Sky-Odyssey' },
+  { id: 'gitee', text: 'FTB整合包下载工具', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/flrscn/curse-the-beast/releases' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
@@ -35,10 +37,6 @@ FTB官网|加载器|支持整合包版本|状态
 **由于FTB的程序下载非常恶心，推荐用下方的第三方工具下载**
 
 你可以在FTB App内或使用下载工具下载整合包。下载汉化补丁后解压，解压到游戏文件夹，出现覆盖文件的提示即代表安装汉化操作正确。
-
-点击下载[FTB整合包下载工具Curse The Beast](https://gitee.com/flrscn/curse-the-beast/releases)
-
-点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/files/4975638)
 
 ## 贡献者
 

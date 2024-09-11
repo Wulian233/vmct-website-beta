@@ -20,7 +20,7 @@ title: Roguelike冒险与地牢汉化下载
 
 ## 重要说明
 
-1. 必须下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/files/4975638)，否则翻译不全；
+1. 必须下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196)，否则翻译不全；
 
 2. 必须下载下面的模组来消除本地化冲突：
 

@@ -12,7 +12,7 @@ layout: doc
 
 原名：Ragecraft IV: Underworld
 
-原文：https://ctmrepository.com/index.php?action=viewMap&id=588
+原文：<https://ctmrepository.com/index.php?action=viewMap&id=588>
 
 遊戲版本：Minecraft原版 1.20.1
 

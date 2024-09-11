@@ -3,25 +3,25 @@ title: Temple of the Art翻譯下載
 layout: doc
 ---
 
-“随着声音的汇聚，心灵发现了更多的神祇。光明与黑暗交汇，混乱必将席卷那些敢于反抗的人……”
+“隨著聲音的彙聚，心靈發現了更多的神祇。 光明與黑暗交匯，混亂必將席捲那些敢於反抗的人......”
 
-![](https://www.minecraftmaps.com/images/jdownloads/screenshots/TempleoftheArt_LOGO.jpg)
+![](https://media.forgecdn.net/attachments/901/462/templeoftheart_logo.jpg)
 
 ## 地图信息
 
 原名：Temple of the Art
 
-原文：https://www.minecraftmaps.com/49520-temple-of-the-art
+原文：<https://www.curseforge.com/minecraft/worlds/temple-of-the-art-spellcrafting-roguelike>
 
-遊戲版本：MC+Optifine 1.19.2
+遊戲版本：MC+Optifine 1.20.1
 
 玩家數量：1名
 
-Temple of the Art（TOTA）是一个受《Noita》启发的施法和魔杖制作的地牢探险类Minecraft地图。
+Temple of the Art（TOTA）是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
-  { id: 'bilibili', text: '宣傳片與安裝教程', icon: '/imgs/svg/bilibili.svg', link: '/doing/' },
+  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing/' },
+  { id: 'bilibili', text: '宣傳片與安裝教程', icon: '/imgs/svg/bilibili.svg', link: '/tw/doing/' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
@@ -29,7 +29,11 @@ Temple of the Art（TOTA）是一个受《Noita》启发的施法和魔杖制作
 
 注意：此地圖**僅支持單人遊戲！需要Optifine 1.19.2**！
 
-![](https://www.minecraftmaps.com/images/jdownloads/screenshots/TempleoftheArt%209.jpg)
+穿越古代法師學院，擊敗沿途入侵的怪物。 面對20波越來越強大的敵人，每一波都比之前更具挑戰性。 你將迎戰大量定製怪物和具有挑戰性的boss戰，確保你時刻保持警惕。 利用超過300種不同的法術，打造屬於你的獨特魔杖，每一次開局都充滿新鮮感和獨特性！ 在途中找到並拯救你的同胞，將新NPC帶回到兩次戰鬥之間的起始區域。 每層樓都有隱藏的秘密和謎題等你解鎖和探索！
+
+無限時長的遊戲內容，包括300多種法術、66件遺物、70種可解鎖內容、100個定製敵人和各種獨特的消耗品！
+
+![](https://media.forgecdn.net/attachments/901/463/templeoftheart-9.jpg)
 
 ## 漢化者（按排名排序）
 

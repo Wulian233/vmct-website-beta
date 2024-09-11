@@ -1,9 +1,10 @@
 {
   "cleanUrls": true,
   "framework": "vitepress",
-  "installCommand": "pnpm install",
   "buildCommand": "pnpm run build",
   "outputDirectory": ".vitepress/dist",
+  "installCommand": "pnpm install",
+  "devCommand": "pnpm run dev",
   "headers": [
     {
       "source": "/imgs/(.*)",
