@@ -6,7 +6,7 @@ titleTemplate: 一个用爱发电专注于汉化MC整合包与地图的非盈利
 
 hero:
   name: "地图汉化下载"
-  tagline: "你必须同时下载地图和汉化补丁，汉化安装为覆盖文件的方式。地图是原版MC的！无需模组，把地图放进存档（saves）文件夹！"
+  tagline: "地图是原版MC的！无需模组，把地图放进存档（saves）文件夹！"
 
 features:
   - icon: 🏘️

@@ -44,7 +44,7 @@ layout: doc
 
 ## 汉化者（排名不分先后）
 
-cat酱，X209，凛夜雨月，咕咕鱼 RCqaq_，Feathamity，DC10-10，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
+cat酱，X209，凛夜雨月，咕咕鱼 RCqaq_，Feathamity，冰琳，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
 
 ## 支持我们
 

@@ -3,10 +3,7 @@ layout: doc
 title: FTB Direwolf20 1.19汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://dist.creeper.host/FTB2/cdn/packs/ftb-direwolf20-119/img1.png" style="width:50%" alt="图片1"/>
-  <img src="/imgs/direwolf.png" style="width:50%" alt="图片2"/>
-</div>
+![](https://dist.creeper.host/FTB2/cdn/packs/ftb-direwolf20-119/img1.png)
 
 FTB和Direwolf20将带来一场新的刺激冒险！自2011年以来，FTB和Direwolf20提供了简单而独特的水槽类整合包，适合各种技能水平的玩家。现在，1.19 版本来袭，游戏变得更棒了！
 
@@ -37,6 +34,8 @@ FTB官网|加载器|整合包版本|状态
 ## 整合包下载与授权
 
 **本次汉化已取得官方授权**
+
+![](/imgs/direwolf.png)
 
 由于此整合包并没有任务、手册、自定义物品等需要及时更新的内容，此包我们主要翻译大量模组内容。所以补丁首次发布即为最终版，除非我们决定新加入翻译模组或有其他需要修改的地方。
 

@@ -6,7 +6,7 @@ titleTemplate: 一個用愛發電專注於翻譯MC模組包與地圖的非盈利
 
 hero:
   name: "地圖翻譯下載"
-  tagline: "你必須同時下載地圖和中文化更新檔，翻譯安裝方式為覆蓋原檔案。地圖是原版MC的！無需mod，把地圖放進存檔（saves）資料夾！"
+  tagline: "地圖是原版MC的！無需mod，把地圖放進存檔（saves）資料夾！"
 
 features:
   - icon: 🏘️

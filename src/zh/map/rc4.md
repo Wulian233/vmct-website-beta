@@ -45,7 +45,7 @@ layout: doc
 
 X209，ChuijkYahus，RCqaq，yinzi，Kzlw5qf，Catcatpigeon，Cat酱，TianxinGstar，咕咕鱼，阿鹉，醉冰茶，望，Lims，McCutcheon10，FridayAnubis，荔枝，xhchi，wandouWD，冰琳，祝明宇，champsing
 
-## 特别鸣谢
+**特别鸣谢**：
 
 天佑，China_Danndy，1639，zhvsjia，doom，黑茶，云零
 

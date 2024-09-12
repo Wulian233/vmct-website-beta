@@ -6,7 +6,7 @@ title: Roguelike冒险与地牢汉化下载
 ![](https://s1.ax1x.com/2023/08/28/pPU44eJ.png)
 
 > [!WARNING] 重要提示
-> 汉化仅支持整合包版本1.53，**不支持最新版1.54！**，请留意下载的整合包版本！
+> 汉化仅支持整合包版本1.53，**不支持最新版1.55！**，请留意下载的整合包版本！
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/Rad-vmct-114' },
@@ -24,7 +24,8 @@ title: Roguelike冒险与地牢汉化下载
 
 2. 必须下载下面的模组来消除本地化冲突：
 
-[NoLocalizationConflict](https://www.curseforge.com/minecraft/mc-mods/nolocalizationconflict/file)及[其前置](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)。
+[NoLocalizationConflict](https://www.curseforge.com/minecraft/mc-mods/nolocalizationconflict/file)
+及[其前置](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)。
 注意模组版本是否和模组版本对应 。
 
 ## 整合包介绍
@@ -48,13 +49,15 @@ title: Roguelike冒险与地牢汉化下载
 
 ## 支持版本
 
-**不支持最新版1.54，汉化支持1.53！**
+**不支持最新版1.55，汉化支持1.53！**
 
 ## 整合包下载与授权
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](/imgs/rad.png)
 
 ## 支持我们
 
