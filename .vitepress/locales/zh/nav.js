@@ -1,5 +1,9 @@
 const nav = [
   {
+    text: '中秋活动',
+    link: 'https://moon.vmct-cn.top/',
+  },
+  {
     text: '加入社区',
     link: '/community',
   },
