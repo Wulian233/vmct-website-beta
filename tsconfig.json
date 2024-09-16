@@ -21,10 +21,8 @@
   },
   "include": [
     "**/.vitepress/**/*.ts",
-    "**/.vitepress/**/*.mts",
     "**/.vitepress/**/*.vue",
     "**/components/**/*.ts",
-    "**/components/**/*.tsx",
     "**/components/**/*.vue"],
   "exclude": ["**/node_modules/**", "**/dist/**", "unocss.config.ts"]
 }

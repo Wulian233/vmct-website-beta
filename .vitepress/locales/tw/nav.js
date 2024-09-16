@@ -28,7 +28,7 @@ const nav = [
         items: [
           {
             text: '貢獻名單',
-            link: '/staff',
+            link: '/tw/staff',
           },
         ],
       },

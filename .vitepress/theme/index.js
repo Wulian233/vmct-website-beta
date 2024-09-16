@@ -1,8 +1,9 @@
 import { onMounted, watch, nextTick } from 'vue'
-import { useRoute } from 'vitepress'
+import { useData, useRoute } from 'vitepress';
 import DefaultTheme, { VPBadge } from 'vitepress/theme-without-fonts'
 
 import mediumZoom from 'medium-zoom'
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import googleAnalytics from '../google-analytics'
 
 import MyLayout from './components/MyLayout.vue'
@@ -35,11 +36,25 @@ export default {
 
   setup() {
     const route = useRoute();
-
+    const { frontmatter } = useData();
     const handleRouteChange = () => nextTick(initZoom);
 
     onMounted(initZoom);
     watch(() => route.path, handleRouteChange);
+
+    giscusTalk({
+      repo: 'Wulian233/vmct-cn.top',
+      repoId: 'R_kgDOLqlXFw',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOLqlXF84CigPB',
+      mapping: 'pathname',
+      inputPosition: 'bottom',
+      lang: 'zh-CN',
+      },
+      {
+        frontmatter, route
+      }
+    );
   },
 };
 

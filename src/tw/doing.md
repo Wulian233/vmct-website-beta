@@ -1,6 +1,5 @@
 ---
 title: 正在翻譯中
-layout: doc
 ---
 
 > [!TIP] 提示

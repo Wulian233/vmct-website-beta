@@ -17,16 +17,17 @@ export const freeSelf =
 
 export const root =
   freeGlobalThis || freeGlobal || freeSelf || Function('return this')()
+
 /**
  * @see https://spec.commonmark.org/0.29/#line-ending
  */
 export const NEWLINES_RE = /\r\n?|\n/g
 
 // single quote will break @vue/compiler-sfc
-export const stringifyProp = (data: unknown): string =>
+export const stringifyProp = (data) =>
   JSON.stringify(data).replace(/'/g, '&#39;')
 
-export const escapeHtml = (unsafeHTML: string): string =>
+export const escapeHtml = (unsafeHTML) =>
   unsafeHTML
     .replace(/&/gu, '&amp;')
     .replace(/</gu, '&lt;')
@@ -34,26 +35,24 @@ export const escapeHtml = (unsafeHTML: string): string =>
     .replace(/"/gu, '&quot;')
     .replace(/'/gu, '&#039;')
 
-export const isBoolean = (val: any): val is boolean => typeof val === 'boolean'
-export const isFunction = <T extends Function>(val: any): val is T =>
-  typeof val === 'function'
-export const isNumber = (val: any): val is number => typeof val === 'number'
-export const isString = (val: unknown): val is string => typeof val === 'string'
-export const isRegExp = (val: unknown): val is RegExp => val instanceof RegExp
-/* String helper */
+export const isBoolean = (val) => typeof val === 'boolean'
+export const isFunction = (val) => typeof val === 'function'
+export const isNumber = (val) => typeof val === 'number'
+export const isString = (val) => typeof val === 'string'
+export const isRegExp = (val) => val instanceof RegExp
 
-export const startsWith = (str: unknown, prefix: string): boolean =>
+/* String helper */
+export const startsWith = (str, prefix) =>
   isString(str) && str.startsWith(prefix)
 
-export const endsWith = (str: unknown, suffix: string): boolean =>
+export const endsWith = (str, suffix) =>
   isString(str) && str.endsWith(suffix)
 
 /**
  * Check if a value is plain object, with generic type support
  */
-export const isPlainObject = <T extends Record<any, any> = Record<any, any>>(
-  val: unknown,
-): val is T => Object.prototype.toString.call(val) === '[object Object]'
+export const isPlainObject = (val) =>
+  Object.prototype.toString.call(val) === '[object Object]'
 
 const markdownLinkRegexp = /.md((\?|#).*)?$/
 
@@ -64,18 +63,18 @@ const markdownLinkRegexp = /.md((\?|#).*)?$/
  * - https://github.com
  * - //github.com
  */
-export const isLinkHttp = (link: string): boolean =>
+export const isLinkHttp = (link) =>
   /^(https?:)?\/\//.test(link)
 
 /**
  * Determine a link is ftp link or not
  */
-export const isLinkFtp = (link: string): boolean => link.startsWith('ftp://')
+export const isLinkFtp = (link) => link.startsWith('ftp://')
 
 /**
  * Determine a link is external or not
  */
-export const isLinkExternal = (link: string, base = '/'): boolean => {
+export const isLinkExternal = (link, base = '/') => {
   // http link or ftp link
   if (isLinkHttp(link) || isLinkFtp(link)) {
     return true
@@ -277,13 +276,13 @@ function debounce(func, wait, options) {
 
 export default debounce
 
-export const isRelativeLink = (link: string) =>
+export const isRelativeLink = (link) =>
   /^(?!www\.|http[s]?:\/\/|[A-Za-z]:\\|\/\/).*/.test(link)
 
-const concatLink = (link: string, base: string): string =>
+const concatLink = (link, base) =>
   `/${base}/${link}`.replace(/\/+/giu, '/')
 
-const modifyLink = (obj: any, base: string): any => {
+const modifyLink = (obj, base) => {
   if (Array.isArray(obj)) {
     return obj.map((item) => modifyLink(item, base))
   } else if (isObject(obj)) {
@@ -304,7 +303,7 @@ const modifyLink = (obj: any, base: string): any => {
   }
 }
 
-const modifyKey = (obj: any, base: string) => {
+const modifyKey = (obj, base) => {
   let newObj = {}
   for (let key in obj) {
     if (key.startsWith('/') && base !== '') {
@@ -317,7 +316,7 @@ const modifyKey = (obj: any, base: string) => {
   return newObj
 }
 
-export const baseHelper = (obj: any, base: string): any =>
+export const baseHelper = (obj, base) =>
   modifyKey(modifyLink(obj, base), base)
 
 /**

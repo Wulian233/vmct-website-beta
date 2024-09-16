@@ -20,7 +20,7 @@
     >
       <p>
         <span ref="icon"></span>
-        {{ coins[selectedPayment].name }}地址:<br /><a
+        {{ coins[selectedPayment].name }}：<br /><a
           :href="coins[selectedPayment].address"
           :title="coins[selectedPayment].name"
           target="_blank"

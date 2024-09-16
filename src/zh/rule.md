@@ -2,6 +2,7 @@
 title: 地图汉化准则（草案）
 layout: doc
 wip: true
+comment: false
 ---
 
 > [!IMPORTANT] 前言

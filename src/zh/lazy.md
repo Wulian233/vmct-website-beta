@@ -1,6 +1,7 @@
 ---
 title: 懒汉下载
 layout: doc
+comment: false
 ---
 
 > [!TIP] 提示
