@@ -1,9 +1,5 @@
 const nav = [
   {
-    text: '中秋活動',
-    link: 'https://moon.vmct-cn.top/',
-  },
-  {
     text: '加入社區',
     link: '/community',
   },
@@ -41,11 +37,11 @@ const nav = [
         items: [
           {
             text: '隱私政策',
-            link: '/privacy',
+            link: '/tw/privacy',
           },
           {
             text: '用戶協定',
-            link: '/agreement',
+            link: '/tw/agreement',
           },
         ],
       },

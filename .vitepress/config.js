@@ -68,6 +68,7 @@ export default defineConfig({
   lastUpdated: true,
   sitemap: { hostname: 'https://vmct-cn.top' },
   themeConfig: {
+    editLink: true,
     aside: true,
     search: {
       provider: 'local',

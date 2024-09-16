@@ -29,7 +29,6 @@
     "js-yaml": "^4.1.0",
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
-    "pinia": "^2.2.2",
     "qrcode": "^1.5.4",
     "typescript": "^5.6.2",
     "unocss": "^0.62.3",
@@ -42,7 +41,7 @@
     "markdown-it": "^14.1.0",
     "markdown-it-container": "^4.0.0",
     "pnpm": "^9.10.0",
-    "taze": "^0.16.8",
+    "taze": "^0.16.9",
     "tsconfig-vuepress": "^5.2.0"
   },
   "packageManager": "pnpm@9.10.0"
