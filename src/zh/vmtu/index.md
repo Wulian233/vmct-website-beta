@@ -1,11 +1,11 @@
 ---
 layout: doc
-title: VM汉化更新模组文档
+title: VM汉化更新模组文档 2.4
 ---
 
 <div align="center"> 
    <img height="128px" width="128px" alt="logo" src="https://cdn.modrinth.com/data/wvCSIW08/c6d47a463a59dd38faf9777c17c634f514fa5b1e.png"/> 
-   <h1>VM汉化更新模组文档</h1>
+   <h1>VM汉化更新模组文档 2.4</h1>
 </div> 
 
 ## 功能
@@ -16,7 +16,6 @@ title: VM汉化更新模组文档
 4. 如果玩家已经下载资源包且发生错误未启用，会在聊天框提示玩家在选项->资源包中手动启用。
 5. 如果玩家名是Zi__Min，会在每次进入世界时发送`欢迎来到籽岷的Minecraft游戏世界！`，且称呼改为岷叔。
 6. 可配置自动修改游戏语言，当安装[Stenographer](https://modrinth.com/mod/stenographer)模组后将禁用。
-7. 可配置是否检测安装i18nUpdate或Vault Patch模组。如未安装将弹出提示页面引导下载（可按esc退出）
 
 ## 支持版本
 
