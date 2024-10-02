@@ -3,6 +3,7 @@ title: VM翻譯組使用者服務協定
 description: 最後修訂：2024年9月4日
 layout: doc
 comment: false
+gitChangelog: false
 ---
 
 [[toc]]

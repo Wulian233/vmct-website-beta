@@ -1,5 +1,7 @@
 ---
 layout: home
+comment: false
+gitChangelog: false
 
 title: VM 汉化组
 titleTemplate: 一个用爱发电专注于汉化MC整合包与地图的非盈利组织

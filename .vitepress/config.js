@@ -5,8 +5,17 @@ import { defineConfig } from 'vitepress'
 import { colorPreviewPlugin } from './theme/markdown/colorPreview'
 import { cardPlugin } from './theme/markdown/card'
 import { imgSize, obsidianImageSize } from '@mdit/plugin-img-size'
+import {
+  GitChangelog,
+  GitChangelogMarkdownSection,
+} from "@nolebase/vitepress-plugin-git-changelog/vite";
+
 import { twConfig } from './locales/tw'
 import { zhConfig } from './locales/zh'
+
+function generateAvatarUrl(username) {
+  return `https://github.com/${username}.png`;
+}
 
 function getMetaTags(pageUrl, pageTitle, pageDesc, pageKeywords, pageCover) {
   return [
@@ -125,6 +134,10 @@ export default defineConfig({
     url => url.toLowerCase().includes('ignore')
   ],
   vite: {
+    optimizeDeps: {
+      exclude: ["@nolebase/*"],
+    },
+    ssr: { noExternal: ["@nolebase/*"] },
     server: { host: true, fs: { allow: ['../..'] } },
     resolve: {
       alias: [{
@@ -132,7 +145,21 @@ export default defineConfig({
         replacement: fileURLToPath(new URL('./theme/components/Footer.vue', import.meta.url)),
       }],
     },
-    plugins: [Unocss()],
+    plugins: [
+      Unocss(),
+      GitChangelog({
+        repoURL: () => "https://github.com/Wulian233/vmct-cn.top",
+        mapAuthors: [
+            {
+                name: "Wulian233",
+                username: "Wulian233",
+                mapByNameAliases: ["Wulian"],
+                avatar: generateAvatarUrl("Wulian233"),
+            },
+          ],
+      }),
+      GitChangelogMarkdownSection(),
+    ],
     json: { stringify: true },
   },
   ...createConfigureFunction(),

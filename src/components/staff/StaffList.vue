@@ -94,10 +94,6 @@ const sortedMembers = computed(() => {
     padding: 0 24px 0 0;
     width: 128px;
   }
-
-  html.banner-dismissed .info {
-    top: 32px;
-  }
 }
 
 @media (min-width: 960px) {
@@ -105,10 +101,6 @@ const sortedMembers = computed(() => {
     top: calc(var(--vp-layout-top-height, 0px) + 88px);
     padding: 0 64px 0 0;
     width: 290px;
-  }
-
-  html.banner-dismissed .info {
-    top: 88px;
   }
 }
 

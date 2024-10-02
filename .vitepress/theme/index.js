@@ -2,6 +2,7 @@ import { onMounted, watch, nextTick } from 'vue'
 import { useData, useRoute } from 'vitepress';
 import DefaultTheme, { VPBadge } from 'vitepress/theme-without-fonts'
 
+import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
 import mediumZoom from 'medium-zoom'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import googleAnalytics from '../google-analytics'
@@ -14,6 +15,7 @@ import DownloadLinks from './components/DownloadLinks.vue'
 import Card from '../theme/components/Card.vue'
 import LinkGrid from '../theme/components/LinkGrid.vue'
 
+import "@nolebase/vitepress-plugin-git-changelog/client/style.css";
 import 'uno.css'
 import './styles/blur.css'
 import './styles/vars.css'
@@ -27,8 +29,9 @@ export default {
 
   enhanceApp({ app }) {
     googleAnalytics({ id: 'G-98VEMPQYQD', debug: false });
+    app.use(NolebaseGitChangelogPlugin);
 
-    const components = { Link, Coins, Card, DownloadLinks, LinkGrid, VPBadge };
+    const components = { Link, Coins, Card, DownloadLinks, LinkGrid, VPBadge};
     Object.entries(components).forEach(([name, component]) => {
       app.component(name, component);
     });

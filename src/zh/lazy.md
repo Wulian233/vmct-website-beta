@@ -2,6 +2,7 @@
 title: 懒汉下载
 layout: doc
 comment: false
+gitChangelog: false
 ---
 
 > [!TIP] 提示

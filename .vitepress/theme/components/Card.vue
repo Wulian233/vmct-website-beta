@@ -45,7 +45,16 @@
 
   <!-- 在这里显式声明Logo，给Unocss识别导入 -->
   <div v-once hidden>
+    <span class="i-custom-123"></span>
+    <span class="i-custom-afdian"></span>
+    <span class="i-custom-bilibili"></span>
+    <span class="i-custom-curseforge"></span>
     <span class="i-custom-discord"></span>
+    <span class="i-custom-gitee"></span>
+    <span class="i-custom-github"></span>
+    <span class="i-custom-mediafire"></span>
+    <span class="i-custom-modrinth"></span>
+    <span class="i-custom-qq"></span>
   </div>
 </template>
 
@@ -134,8 +143,16 @@ const props = withDefaults(defineProps<CardProps>(), {
 })
 
 const iconMap = {
+  '123pan.com': 'i-custom-123',
+  'afdian.com': 'i-custom-afdian',
+  'afdian.net': 'i-custom-afdian',
   'bilibili.com': 'i-custom-bilibili',
+  'curseforge.com': 'i-custom-curseforge',
   'discord': 'i-custom-discord',
+  'gitee.com': 'i-custom-gitee',
+  'github.com': 'i-custom-github',
+  'mediafire.com': 'i-custom-mediafire',
+  'modrinth.com': 'i-custom-modrinth',
   'qq.com': 'i-custom-qq',
 }
 

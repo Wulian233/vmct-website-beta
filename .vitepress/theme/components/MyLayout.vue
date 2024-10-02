@@ -8,7 +8,6 @@ import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
 
-const Banner = defineAsyncComponent(() => import('./Banner.vue'))
 const { isDark } = useData()
 
 provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
@@ -38,9 +37,6 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
 
 <template>
   <DefaultTheme.Layout>
-    <template #layout-top>
-      <Banner />
-    </template>
     <template #layout-bottom>
       <HighlightTargetedHeading />
     </template>

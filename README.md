@@ -18,7 +18,7 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
 
 对于本地开发，使用[pnpm](https://pnpm.io/zh/)包管理器：
 
-```
+```shell
 pnpm i
 pnpm run dev
 ```
@@ -32,5 +32,7 @@ PS：域名在腾讯云购买
 ## 👀 许可证
 
 本项目使用自由的[MIT许可](LICENSE)开源。
+
+特别感谢[空荧酒馆文档](https://github.com/kongying-tavern/docs)项目，本项目基于它进行开发。
 
 特别感谢[空荧酒馆文档](https://github.com/kongying-tavern/docs)项目，本项目基于它进行开发。
