@@ -118,7 +118,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'color-scheme', content: 'dark light' }],
     ['link', { rel: 'icon', href: `/imgs/favicon/favicon-32x32.png`, type: 'image/png' }],
-    ['link', { rel: 'alternate', hreflang: 'zh', href: 'https://vmct-cn.top/' }],
+    ['link', { rel: 'alternate', hreflang: 'zh', href: 'https://vmct-cn.top/zh/' }],
     ['link', { rel: 'alternate', hreflang: 'tw', href: 'https://vmct-cn.top/tw/' }],
     ['link', { rel: 'alternate', href: `/imgs/favicon/favicon.ico`, type: 'image/x-icon' }],
     ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
@@ -149,14 +149,6 @@ export default defineConfig({
       Unocss(),
       GitChangelog({
         repoURL: () => "https://github.com/Wulian233/vmct-cn.top",
-        mapAuthors: [
-            {
-                name: "Wulian233",
-                username: "Wulian233",
-                mapByNameAliases: ["Wulian"],
-                avatar: generateAvatarUrl("Wulian233"),
-            },
-          ],
       }),
       GitChangelogMarkdownSection(),
     ],
