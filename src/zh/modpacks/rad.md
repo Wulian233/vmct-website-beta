@@ -3,7 +3,7 @@ layout: doc
 title: Roguelike冒险与地牢汉化下载
 ---
 
-![](https://s1.ax1x.com/2023/08/28/pPU44eJ.png)
+![](https://media.forgecdn.net/attachments/267/833/2019-09-30_23.png)
 
 > [!WARNING] 重要提示
 > 汉化仅支持整合包版本1.53，**不支持最新版1.55！**，请留意下载的整合包版本！
